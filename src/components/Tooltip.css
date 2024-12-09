@@ -1,0 +1,33 @@
+ .tooltip-wrapper {
+    position:absolute;
+    display: inline-block;
+    cursor: pointer;
+   width: 200px; 
+
+
+  }
+  
+  .truncate {
+    display: inline-block;
+    max-width: 200px; 
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .tooltip {
+    position: absolute;
+    top: 100%; 
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    max-width: 250px; 
+    white-space: normal; 
+    word-wrap: break-word; 
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
